@@ -5,7 +5,7 @@ import { View, StyleSheet, ImageBackground } from "react-native";
 
 const PlaceholderImage = require("@/assets/images/login.png");
 
-export default function Index() {
+export default function Question1() {
   return (
     <ImageBackground source={PlaceholderImage} style={styles.background}>
       <View style={styles.content}></View>
